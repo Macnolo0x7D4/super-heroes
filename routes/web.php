@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/genders', [GenderController::class, 'index']);
+Route::resource('genders', GenderController::class);
