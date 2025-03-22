@@ -2,13 +2,13 @@
 
 namespace Database\Seeders;
 
-use App\Models\Superheroe;
+use App\Models\Superhero;
 use Illuminate\Database\Seeder;
 
-class SuperheroeSeeder extends Seeder
+class SuperheroSeeder extends Seeder
 {
     public function run(): void
     {
-        Superheroe::factory(10)->create();
+        Superhero::factory(10)->create();
     }
 }

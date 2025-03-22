@@ -3,11 +3,11 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use App\Models\Superheroe;
+use App\Models\Superhero;
 
-class SuperheroeFactory extends Factory
+class SuperheroFactory extends Factory
 {
-    protected $model = Superheroe::class;
+    protected $model = Superhero::class;
 
     public function definition(): array
     {
